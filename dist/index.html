@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container-fluid bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-xxl navbar-dark bg-secondary">
+                        <div class="container-fluid p-0">
+                            <a class="navbar-brand" href="#">Navbar</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Dropdown
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled" href="#" tabindex="-1"
+                                            aria-disabled="true">Disabled</a>
+                                    </li>
+                                </ul>
+                                <form class="d-flex">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <h6 class="my-4 fw-bold text-center">OFFcanvas</h6>
+        <div class="row">
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <p class="fw-bold">Menu From <span class="">left</span> side</p>
+                <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <p class="fw-bold">Menu From <span class="text-uppercase text-dark">right</span> side</p>
+                <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample-right" aria-controls="offcanvasExample-right">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <p class="fw-bold">Menu From <span class="text-uppercase text-dark">top</span> side</p>
+                <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample-top" aria-controls="offcanvasExample-top">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <p class="fw-bold">Menu From <span class="text-uppercase text-dark">bottom</span> side</p>
+                <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample-bottom" aria-controls="offcanvasExample-bottom">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+
+        </div>
+        <h6 class="my-4 fw-bold text-center">Full Page OFFcanvas</h6>
+        <div class="row">
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <p class="fw-bold">Full page Menu From <span class="">left</span> side</p>
+                <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExamplefull" aria-controls="offcanvasExamplefull">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <p class="fw-bold">Full page Menu From <span class="">right</span> side</p>
+                <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExamplefull-right" aria-controls="offcanvasExamplefull-right">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <p class="fw-bold">Full page Menu From <span class="">top</span> side</p>
+                <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExamplefull-top" aria-controls="offcanvasExamplefull-top">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <p class="fw-bold">Full page Menu From <span class="">bottom</span> side</p>
+                <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExamplefull-bottom" aria-controls="offcanvasExamplefull-bottom">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+
+        </div>
+
+        <!-- Menu from Left -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0">
+                <div class="">
+                    <button type="button" class="btn btn-secondary w-100 rounded-0 text-start p-2 border-bottom">Menu
+                        item 1</button>
+                    <button type="button" class="btn btn-secondary w-100 rounded-0 text-start p-2 border-bottom">Menu
+                        item 2</button>
+                    <div class="accordion accordion-flush" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button
+                                    class="accordion-button btn btn-secondary w-100 rounded-0 p-2 text-white bg-secondary"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0">
+                                    <button type="button"
+                                        class="btn btn-dark w-100 rounded-0 text-start p-2 border-bottom">Menu item
+                                        1</button>
+                                    <button type="button" class="btn btn-dark w-100 rounded-0 text-start p-2">Menu item
+                                        2</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button
+                                    class="accordion-button collapsed btn btn-secondary w-100 rounded-0 p-2 text-white bg-secondary"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0">
+                                    <button type="button"
+                                        class="btn btn-dark w-100 rounded-0 text-start p-2 border-bottom">Menu item
+                                        1</button>
+                                    <button type="button" class="btn btn-dark w-100 rounded-0 text-start p-2 ">Menu item
+                                        2</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button
+                                    class="accordion-button collapsed btn btn-secondary w-100 rounded-0 p-2 text-white bg-secondary"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0">
+                                    <button type="button"
+                                        class="btn btn-dark w-100 rounded-0 text-start p-2 border-bottom">Menu item
+                                        1</button>
+                                    <button type="button" class="btn btn-dark w-100 rounded-0 text-start p-2">Menu item
+                                        2</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Menu from right -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample-right"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0">
+                <div class="">
+                    <button type="button" class="btn btn-secondary w-100 rounded-0 text-start p-2 border-bottom">Menu
+                        item 1</button>
+                    <button type="button" class="btn btn-secondary w-100 rounded-0 text-start p-2 border-bottom">Menu
+                        item 2</button>
+                    <div class="accordion accordion-flush" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button
+                                    class="accordion-button btn btn-secondary w-100 rounded-0 p-2 text-white bg-secondary"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0">
+                                    <button type="button"
+                                        class="btn btn-dark w-100 rounded-0 text-start p-2 border-bottom">Menu item
+                                        1</button>
+                                    <button type="button" class="btn btn-dark w-100 rounded-0 text-start p-2">Menu item
+                                        2</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button
+                                    class="accordion-button collapsed btn btn-secondary w-100 rounded-0 p-2 text-white bg-secondary"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0">
+                                    <button type="button"
+                                        class="btn btn-dark w-100 rounded-0 text-start p-2 border-bottom">Menu item
+                                        1</button>
+                                    <button type="button" class="btn btn-dark w-100 rounded-0 text-start p-2 ">Menu item
+                                        2</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button
+                                    class="accordion-button collapsed btn btn-secondary w-100 rounded-0 p-2 text-white bg-secondary"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0">
+                                    <button type="button"
+                                        class="btn btn-dark w-100 rounded-0 text-start p-2 border-bottom">Menu item
+                                        1</button>
+                                    <button type="button" class="btn btn-dark w-100 rounded-0 text-start p-2">Menu item
+                                        2</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Menu from top -->
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasExample-top"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0">
+                <div class="">
+                    <button type="button" class="btn btn-secondary w-100 rounded-0 text-start p-2 border-bottom">Menu
+                        item 1</button>
+                    <button type="button" class="btn btn-secondary w-100 rounded-0 text-start p-2 border-bottom">Menu
+                        item 2</button>
+                    <div class="accordion accordion-flush" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button
+                                    class="accordion-button btn btn-secondary w-100 rounded-0 p-2 text-white bg-secondary"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0">
+                                    <button type="button"
+                                        class="btn btn-dark w-100 rounded-0 text-start p-2 border-bottom">Menu item
+                                        1</button>
+                                    <button type="button" class="btn btn-dark w-100 rounded-0 text-start p-2">Menu item
+                                        2</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button
+                                    class="accordion-button collapsed btn btn-secondary w-100 rounded-0 p-2 text-white bg-secondary"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0">
+                                    <button type="button"
+                                        class="btn btn-dark w-100 rounded-0 text-start p-2 border-bottom">Menu item
+                                        1</button>
+                                    <button type="button" class="btn btn-dark w-100 rounded-0 text-start p-2 ">Menu item
+                                        2</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button
+                                    class="accordion-button collapsed btn btn-secondary w-100 rounded-0 p-2 text-white bg-secondary"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0">
+                                    <button type="button"
+                                        class="btn btn-dark w-100 rounded-0 text-start p-2 border-bottom">Menu item
+                                        1</button>
+                                    <button type="button" class="btn btn-dark w-100 rounded-0 text-start p-2">Menu item
+                                        2</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Menu from bottom -->
+        <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasExample-bottom"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0">
+                <div class="">
+                    <button type="button" class="btn btn-secondary w-100 rounded-0 text-start p-2 border-bottom">Menu
+                        item 1</button>
+                    <button type="button" class="btn btn-secondary w-100 rounded-0 text-start p-2 border-bottom">Menu
+                        item 2</button>
+                    <div class="accordion accordion-flush" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button
+                                    class="accordion-button btn btn-secondary w-100 rounded-0 p-2 text-white bg-secondary"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0">
+                                    <button type="button"
+                                        class="btn btn-dark w-100 rounded-0 text-start p-2 border-bottom">Menu item
+                                        1</button>
+                                    <button type="button" class="btn btn-dark w-100 rounded-0 text-start p-2">Menu item
+                                        2</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button
+                                    class="accordion-button collapsed btn btn-secondary w-100 rounded-0 p-2 text-white bg-secondary"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0">
+                                    <button type="button"
+                                        class="btn btn-dark w-100 rounded-0 text-start p-2 border-bottom">Menu item
+                                        1</button>
+                                    <button type="button" class="btn btn-dark w-100 rounded-0 text-start p-2 ">Menu item
+                                        2</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button
+                                    class="accordion-button collapsed btn btn-secondary w-100 rounded-0 p-2 text-white bg-secondary"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body p-0">
+                                    <button type="button"
+                                        class="btn btn-dark w-100 rounded-0 text-start p-2 border-bottom">Menu item
+                                        1</button>
+                                    <button type="button" class="btn btn-dark w-100 rounded-0 text-start p-2">Menu item
+                                        2</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--Full Page Menu from Left -->
+        <div class="offcanvas offcanvas-start w-100 bg-transparent" tabindex="-1" id="offcanvasExamplefull"
+            aria-labelledby="offcanvasExampleLabelfull">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title text-info" id="offcanvasExampleLabelfull">Offcanvas</h5>
+                <button type="button" class="btn-close text-reset bg-info" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0">
+                <div class="h-100">
+                    <div class="row w-75 mx-auto h-100">
+                        <div class="col-12 col-12 d-flex justify-content-center align-items-center flex-column">
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 1</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 2</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 3</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 4</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 5</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 6</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--Full Page Menu from right -->
+        <div class="offcanvas offcanvas-end w-100 bg-transparent" tabindex="-1" id="offcanvasExamplefull-right"
+            aria-labelledby="offcanvasExampleLabelfull-right">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title text-info" id="offcanvasExampleLabelfull-right">Offcanvas</h5>
+                <button type="button" class="btn-close text-reset bg-info" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0">
+                <div class="h-100">
+                    <div class="row w-75 mx-auto h-100">
+                        <div class="col-12 col-12 d-flex justify-content-center align-items-center flex-column">
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 1</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 2</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 3</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 4</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 5</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 6</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--Full Page Menu from top -->
+        <div class="offcanvas offcanvas-top w-100 bg-transparent h-100" tabindex="-1" id="offcanvasExamplefull-top"
+            aria-labelledby="offcanvasExampleLabelfull-top">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title text-info" id="offcanvasExampleLabelfull-top">Offcanvas</h5>
+                <button type="button" class="btn-close text-reset bg-info" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0">
+                <div class="h-100">
+                    <div class="row w-75 mx-auto h-100">
+                        <div class="col-12 col-12 d-flex justify-content-center align-items-center flex-column">
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 1</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 2</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 3</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 4</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 5</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 6</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--Full Page Menu from bottom -->
+        <div class="offcanvas offcanvas-bottom w-100 bg-transparent h-100" tabindex="-1" id="offcanvasExamplefull-bottom"
+            aria-labelledby="offcanvasExampleLabelfull-bottom">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title text-info" id="offcanvasExampleLabelfull-bottom">Offcanvas</h5>
+                <button type="button" class="btn-close text-reset bg-info" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0">
+                <div class="h-100">
+                    <div class="row w-75 mx-auto h-100">
+                        <div class="col-12 col-12 d-flex justify-content-center align-items-center flex-column">
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 1</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 2</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 3</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 4</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 5</a>
+                            <a href="javascript:void(0);" class="fs-3 text-info text-decoration-none btn btn-info w-100 bg-transparent rounded-0 border-0 ">Menu 6</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

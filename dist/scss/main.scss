@@ -1,0 +1,13 @@
+body{margin: 0px; padding: 0px;}
+*{box-sizing: border-box;}
+
+@import url('variables.scss');
+@import url('_navbar.scss');
+
+.navbar-toggler-icon{
+    background-image: url('../images/align-right.svg');
+}
+.navbar-dark .navbar-toggler-icon{
+    background-image: url('../images/align-right.svg');
+}
+
